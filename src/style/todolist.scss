@@ -1,0 +1,42 @@
+.todolist {
+    width: 800px;
+    min-height: 200px;
+    background-color: rgb(226, 226, 226);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tbList {
+    width: 500px;
+}
+
+.editUser {
+    position: relative;
+}
+
+.createUser {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+// addUser
+
+.addUser {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+tfoot tr td {
+    text-align: center;
+}
